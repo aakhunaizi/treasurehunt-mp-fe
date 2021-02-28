@@ -28,7 +28,7 @@ export default function Signin() {
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <h1>Sign In</h1>
         <br />
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           Username
         </label>
         <input

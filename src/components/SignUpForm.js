@@ -25,7 +25,7 @@ export default function Signin() {
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <h1>Sign Up</h1>
         <br />
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           Email
         </label>
         <input
@@ -38,7 +38,7 @@ export default function Signin() {
           {errors.email && "Email is required"}
         </div>
         <br />
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           First Name
         </label>
         <input
@@ -51,7 +51,7 @@ export default function Signin() {
           {errors.firstName && "First Name is required"}
         </div>
         <br />
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           Last Name
         </label>
         <input
@@ -65,7 +65,7 @@ export default function Signin() {
         </div>
         <br />
 
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           Username
         </label>
         <input
@@ -78,7 +78,7 @@ export default function Signin() {
           {errors.username && "Username is required"}
         </div>
         <br />
-        <label for="inputPassword5" class="form-label">
+        <label for="inputPassword5" className="form-label">
           Password
         </label>
         <input
@@ -90,14 +90,14 @@ export default function Signin() {
         <div style={{ color: "red" }}>
           {errors.password && "Password is required"}
         </div>
-        <div class="mb-3 form-check">
+        <div className="mb-3 form-check">
           <input
             type="checkbox"
-            class="form-check-input"
+            className="form-check-input"
             id="exampleCheck1"
             onClick={() => setPassword(!password)}
           />
-          <label class="form-check-label" for="exampleCheck1">
+          <label className="form-check-label" for="exampleCheck1">
             Show password
           </label>
         </div>

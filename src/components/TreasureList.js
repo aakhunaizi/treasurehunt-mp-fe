@@ -9,7 +9,6 @@ const TreasureList = () => {
   const user = useSelector((state) => state.authReducer.user);
   const dispatch = useDispatch();
   const treasures = useSelector((state) => state.treasureReducer.treasures);
-  console.log(treasures);
   const treasureList = treasures.map((thing) => (
     <Thing thing={thing} key={thing.id} />
   ));

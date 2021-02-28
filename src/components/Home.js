@@ -21,7 +21,7 @@ const Home = () => {
           <Link to="/garbage">
             <button
               type="button"
-              class="btn btn-warning btn-lg"
+              className="btn btn-warning btn-lg"
               style={{ marginTop: "20%", marginLeft: "55%" }}
             >
               Garbage
@@ -30,7 +30,7 @@ const Home = () => {
           <Link to="/treasures">
             <button
               type="button"
-              class="btn btn-warning btn-lg"
+              className="btn btn-warning btn-lg"
               style={{ marginTop: "-4%", marginLeft: "35%" }}
               disabled={!user ? true : false}
             >
