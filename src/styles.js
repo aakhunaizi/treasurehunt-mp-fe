@@ -45,7 +45,7 @@ export const ListWrapper = styled.div`
   margin-top: 80px;
 `;
 
-export const ProductWrapper = styled.div`
+export const ThingWrapper = styled.div`
   margin: 20px;
   img {
     width: 200px;
@@ -101,7 +101,7 @@ export const LogoLight = styled(Link)`
 `;
 
 export const NavProduct = styled(NavLink)`
-  color: black;
+  color: white;
   &.active {
     color: red;
   }
@@ -129,7 +129,7 @@ export const CreateButtonStyled = styled.button`
   display: block;
   &:hover {
     color: ${(props) => props.theme.mainColor};
-    background-color: green;
+    background-color: transparent;
   }
 `;
 
@@ -179,5 +179,5 @@ export const StyledTitle = styled.h1`
 `;
 
 export const NavBarContainer = styled.div`
-  background-color: #ffd886;
+  background-color: black;
 `;
